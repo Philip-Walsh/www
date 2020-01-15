@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Press+Start+2P|Shadows+Into+Light&display=swap');
+
+html{
+  background-color:rgb(25, 204, 79);
+  background-image:radial-gradient(circle,#036919,rgba(0, 0, 0, 0));
+  font-family: 'Press Start 2P', cursive;
+  text-align:center;
+}
+body{
+  max-width:90%;
+  margin: auto;
+
+
+  /*font-family: 'Anton', sans-serif;
+*/
+}
+section{
+  max-width:50%;
+  margin:auto;
+}
+
+/* NAVIGATION*/
+nav {
+  text-align: center;
+  background-color: grey;
+  padding: 15px;
+  border: solid black 1px;
+  letter-spacing: 2px;
+}
+
+a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5%;
+}
+
+a:hover {
+  background-color: rgb(103, 169, 190);
+  transition-duration: 0.2s;
+}
