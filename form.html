@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-    <h1>PROJECTS</h1><a href="https://www.philipw2020.repl.co"> <img src="images/logo.png" /></a>
+    <h1>FORM</h1><a href="https://www.philipw2020.repl.co"> <img src="images/logo.png" /></a>
 
 	</header> 
   <nav>
@@ -19,12 +19,12 @@
 	</nav>
 <main>
 <section>
-  <form>
+  <form action="response.py" method="get">
 		<fieldset>
 			<ledgend>Name</ledgend>
-			<label for="firstname">First name: </label>
+			<label for="firstname"maxlength="10" lenght="10" placeholder="User">First name: </label>
 			<input type="text" name="firstname" id="firstname"/>
-			<label for="surname">Surname:</label>
+			<label for="surname" placeholder="The first" maxlength="10">Surname:</label>
 			<input type="text" name="surname" id="surname" />
 		</fieldset>
 		<fieldset>
@@ -33,12 +33,26 @@
 			<input type="text" name=street_address" id="street_address" />
 			<label for="town">Town: </label>
 			<input type="text"  name="town" id="town" />
+<!--		label format		-->
+			<label for="Post code">Post Code: </label>
+			<input type="text" maxlength="6" length="6" name="postcode" title="A valid US zip code or UK postcode. For other countries, leave blank." />
+		</fieldset>
+		<fieldset>
+			<input type="checkbox" value="click Me" onclick="msg()"/>
+			<input type="text" name="BIO"/>
+			<input type="email" name="EMAIL"/>
+			<input type="color" name="FAV-COLOR"/>
+			<input type="date" name="BDAY"/>
+			<input type="file" name="FILE_NAME"/>
+			<input type="image" name="IMG_NAME"/>
+			<input type="button" onClick="encrypt.py" />
+			<!--<input type="hidden" id="CUST_ID" value="3487"/> -->
 		</fieldset>
 		<fieldset>
 			<ledgend>
 		<fieldset class="constant">
-			<input type="reset" />
-			<input type="submit" />
+			<input type="reset" value="CLEAR" />
+			<input type="submit" value="CONTINUE"/>
 <section>
 </main>
 <footer>

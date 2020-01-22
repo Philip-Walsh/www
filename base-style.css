@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Press+Start+2P|Shadows+Into+Light&display=swap');
+
+html{
+  background-color:black;
+  background-image:radial-gradient(circle,#032769,rgba(0, 0, 0, 0));
+  font-family: 'Press Start 2P', cursive;
+  text-align:center;
+	color:white;
+}
+
+header{
+}
+section{
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	max-width:40%;
+}
+/* Logos */
+aside ul li:nth-child(1){
+  list-style-image: url('icons/icon1-home.svg');
+}
+aside ul li:nth-child(2){
+  list-style-image: url('icons/icon1-ema.svg');
+}
+aside ul li:nth-child(3){
+  list-style-image: url('icons/icon1-int.svg');
+}
+aside ul li:nth-child(4){
+  list-style-image: url('icons/icon1-phone.svg');
+}
+  /*
+*/
+/*					FORMS									*/
+label{
+	display:block;
+	color:aquamarine;
+	float:left;
+	}
+ledgend{
+	color:blueviolet;
+	float: left;
+	padding:1em;
+	padding-right:5em;
+}
+	/*
+label{
+	float: left;
+	clear: left;
+	width: 10em;
+	margin-right: 1em;
+	text-align: right;
+}
+input{
+	float: right;
+	clear:right;
+			placeholder
+}*/
+input[type=text]{
+	background-color:white;
+	color:black;
+	font-family: 'Press Start 2P', cursive;
+	font-size:.5em;
+
+
+}
+/*IMAGES*/
+header img{
+	max-width:20%;}
+img{
+  max-width:50%;
+
+}
+
+/* NAVIGATION*/
+nav {
+	overflow:hidden;
+  text-align: center;
+  background-color: grey;
+  padding: 15px;
+  border: solid black 1px;
+  letter-spacing: 2px;
+}
+nav img{
+	width:1em;
+}
+a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  border-radius: 5%;
+}
+
+a:hover {
+  background-color: rgb(103, 169, 190);
+  transition-duration: 0.2s;
+}
+aside{
+	font-size:.5em;
+}
